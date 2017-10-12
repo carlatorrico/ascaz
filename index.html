@@ -1,10 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 7]>
+<html class="ie ie7" lang="pt-BR">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="pt-BR">
+<!--<![endif]-->
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
 
+    <link href="./bower_components/MDBootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bower_components/MDBootstrap/css/mdb.min.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+
+    <title>Ascaz</title>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg" alt="First slide">
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row mt-2">
+            <div class="col-lg-3 col-md-12 mt-4">
+                <h4 class="mb-3">Breve Descrição</h4>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.</p>
+            </div>
+
+            <div class="col-lg-9 col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-dark mdb-color">
+                    <div class="tabs-wrapper navbar-collapse">
+                        <ul class="navbar-nav mr-auto text-center" role="tablist">
+                            <li class="nav-item"><a class="nav-link waves-light active" data-toggle="tab" href="#home" role="tab">Home</a></li>
+                            <li class="nav-item"><a class="nav-link waves-light" data-toggle="tab" href="#valores" role="tab">Valores</a></li>
+                            <li class="nav-item"><a class="nav-link waves-light" data-toggle="tab" href="#eventos" role="tab">Eventos</a></li>
+                            <li class="nav-item"><a class="nav-link waves-light" data-toggle="tab" href="#doeaqui" role="tab">Doe Aqui</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade in show active" id="home" role="tabpanel">
+
+                        <section class="section feature-box">
+                            <h1 class="section-heading pt-4">Why is it so great?</h1>
+                            <p class="section-description lead grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                            <div class="row features-big">
+                                <div class="col-md-4 mb-r">
+                                    <h5 class="feature-title">Analytics</h5>
+                                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                </div>
+
+                                <div class="col-md-4 mb-r">
+                                    <h5 class="feature-title">Tutorials</h5>
+                                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                </div>
+
+                                <div class="col-md-4 mb-r">
+                                    <h5 class="feature-title">Relax</h5>
+                                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="tab-pane fade" id="valores" role="tabpanel">
+                        <p> ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="eventos" role="tabpanel">
+                        <p> dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="doeaqui" role="tabpanel">
+                        <p>amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <address>CNPJ: </address>
+                <address>Endereço: </address>
+                <address>Telefone: </address>
+                <address>E-mail: </address>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid elegant-color">
+        <div class="row">
+            <div class="container mt-3">
+                <div class="row py-3 text-center">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="info text-white">2017 &copy; ONG Ascaz - Feito com ♥ pelo <b>#G08XP10</b></p>
+                        <p class="info text-white">Uma iniciativa</p>
+                        <p class="info">
+                            <a target="_blank" href="http://gama.academy/">
+                                <img src="assets/img/gama.png">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bower_components/MDBootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="./bower_components/MDBootstrap/js/popper.min.js"></script>
+    <script src="./bower_components/MDBootstrap/js/bootstrap.js"></script>
+    <script src="./bower_components/MDBootstrap/js/mdb.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
